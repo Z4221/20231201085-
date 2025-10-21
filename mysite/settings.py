@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'student_info',  # 我们的学生信息应用
+    'helloworld',    # Hello World应用
 ]
 
 MIDDLEWARE = [

@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('student_info.urls')),  # 包含学生信息应用的URL
+    path('helloworld/', include('helloworld.urls')),  # 包含Hello World应用的URL
 ]
